@@ -1,12 +1,29 @@
-# Site settings
-title: Hacking to  Blog
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://90fire.com
+title: BZARD's blog
 email: wzero87@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: > # "Write an awesome description for your new site here. 
   极客地生活，极客地思考
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://90fire.com" # the base hostname & protocol for your site
-twitter_username: BZARD
-github_username:  BZARD
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
 
 # Build settings
 markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url: https://twitter.com/SBootstrap
+  - title: github
+    url: https://github.com/IronSummitMedia/startbootstrap
+  - title: linkedin
+    url: 
